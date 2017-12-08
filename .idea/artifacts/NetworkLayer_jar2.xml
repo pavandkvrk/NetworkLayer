@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NetworkLayer:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/NetworkLayer_jar2</output-path>
+    <root id="archive" name="NetworkLayer.jar">
+      <element id="module-output" name="NetworkLayer" />
+    </root>
+  </artifact>
+</component>

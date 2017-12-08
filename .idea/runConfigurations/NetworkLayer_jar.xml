@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="NetworkLayer.jar" type="JarApplication" factoryName="JAR Application" singleton="true">
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/NetworkLayer_jar/NetworkLayer.jar" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <envs />
+    <module name="NetworkLayer" />
+    <method>
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Main" run_configuration_type="Application" />
+    </method>
+  </configuration>
+</component>

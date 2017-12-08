@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="856.0" prefWidth="1223.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+      <Label fx:id="application" alignment="CENTER" contentDisplay="CENTER" layoutX="122.0" layoutY="44.0" onMouseClicked="#ApplicationLayer" prefHeight="36.0" prefWidth="106.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Application Layer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="presentationlayer" alignment="CENTER" contentDisplay="CENTER" layoutX="122.0" layoutY="80.0" onMouseClicked="#PresentationLayer" prefHeight="36.0" prefWidth="106.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Presentation Layer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="sessionlayer" alignment="CENTER" contentDisplay="CENTER" layoutX="122.0" layoutY="116.0" onMouseClicked="#SessionLayer" prefHeight="36.0" prefWidth="106.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Session Layers">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="transportlayer" alignment="CENTER" contentDisplay="CENTER" layoutX="122.0" layoutY="152.0" onMouseClicked="#TransportLayer" prefHeight="36.0" prefWidth="106.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Transport Layer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="networklayer" alignment="CENTER" contentDisplay="CENTER" layoutX="122.0" layoutY="188.0" onMouseClicked="#NetworkLayer" prefHeight="36.0" prefWidth="106.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Network Layer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="datalink" alignment="CENTER" contentDisplay="CENTER" layoutX="122.0" layoutY="224.0" onMouseClicked="#DataLinkLayer" prefHeight="36.0" prefWidth="106.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Data Link">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="physicallayer" alignment="CENTER" contentDisplay="CENTER" layoutX="122.0" layoutY="260.0" onMouseClicked="#physicallayer" prefHeight="36.0" prefWidth="106.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Physical Layer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="application1" alignment="CENTER" contentDisplay="CENTER" layoutX="876.0" layoutY="44.0" onMouseClicked="#ApplicationLayer1" prefHeight="36.0" prefWidth="110.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Application Layer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="presentationlayer1" alignment="CENTER" contentDisplay="CENTER" layoutX="876.0" layoutY="80.0" onMouseClicked="#PresentationLayer1" prefHeight="36.0" prefWidth="110.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Presentation Layer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="sessionlayer1" alignment="CENTER" contentDisplay="CENTER" layoutX="876.0" layoutY="116.0" onMouseClicked="#SessionLayer1" prefHeight="36.0" prefWidth="110.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Session Layers">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="transportlayer1" alignment="CENTER" contentDisplay="CENTER" layoutX="876.0" layoutY="152.0" onMouseClicked="#TransportLayer1" prefHeight="36.0" prefWidth="110.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Transport Layer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="networklayer1" alignment="CENTER" contentDisplay="CENTER" layoutX="876.0" layoutY="188.0" onMouseClicked="#NetworkLayer1" prefHeight="36.0" prefWidth="110.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Network Layer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="datalink1" alignment="CENTER" contentDisplay="CENTER" layoutX="876.0" layoutY="224.0" onMouseClicked="#DataLinkLayer1" prefHeight="36.0" prefWidth="110.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Data Link">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="physicallayer1" alignment="CENTER" contentDisplay="CENTER" layoutX="876.0" layoutY="260.0" onMouseClicked="#physicallayer1" prefHeight="36.0" prefWidth="110.0" style="-fx-border-color: blue; -fx-border-width: 5; -fx-border-style: solid;" text="Physical Layer">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="146.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/Computer_Icon.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="43.0" fitWidth="53.0" layoutX="268.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/UPVEL-UR-825AC.normal.jpg" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="43.0" fitWidth="53.0" layoutX="638.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/UPVEL-UR-825AC.normal.jpg" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="902.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/Computer_Icon.png" />
+      </image>
+   </ImageView>
+   <Circle fx:id="circle" fill="DODGERBLUE" layoutX="93.0" layoutY="61.0" radius="14.0" rotate="-93.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle fx:id="circle1" fill="#ff1f1f" layoutX="50.0" layoutY="61.0" radius="14.0" rotate="-93.0" stroke="BLACK" strokeType="INSIDE" />
+
+    <TextField fx:id="textField1" layoutX="246.0" layoutY="49.0" />
+   <Button layoutX="426.0" layoutY="48.0" mnemonicParsing="false" onMouseClicked="#OnButtonClick" text="ok" />
+
+
+    <TextArea fx:id="textup" layoutX="999.0" layoutY="41.0" prefHeight="43.0" prefWidth="202.0" />
+   <Button fx:id="pause" layoutX="595.0" layoutY="48.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="129.0" text="Blue Circle Pause" />
+   <Button fx:id="resume" layoutX="468.0" layoutY="49.0" mnemonicParsing="false" text="Red Circle Pause" />
+   <ImageView fitHeight="43.0" fitWidth="53.0" layoutX="327.0" layoutY="524.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/UPVEL-UR-825AC.normal.jpg" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="50.0" fitWidth="60.0" layoutX="339.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true" />
+   <TextArea fx:id="textbottom1" layoutX="720.0" layoutY="580.0" prefHeight="71.0" prefWidth="376.0" />
+   <ImageView fitHeight="43.0" fitWidth="53.0" layoutX="349.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/UPVEL-UR-825AC.normal.jpg" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="36.0" fitWidth="53.0" layoutX="441.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/UPVEL-UR-825AC.normal.jpg" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="43.0" fitWidth="53.0" layoutX="793.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/UPVEL-UR-825AC.normal.jpg" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="43.0" fitWidth="53.0" layoutX="725.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/UPVEL-UR-825AC.normal.jpg" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="43.0" fitWidth="53.0" layoutX="725.0" layoutY="524.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Images/UPVEL-UR-825AC.normal.jpg" />
+      </image>
+   </ImageView>
+   <Line endX="100.0" layoutX="228.0" layoutY="397.0" scaleX="0.4" startX="-100.0" />
+   <Line endX="100.0" endY="-140.0" layoutX="274.0" layoutY="401.0" rotate="-11.3" startX="10.0" startY="-30.0" />
+   <Line endX="30.0" layoutX="461.0" layoutY="307.0" rotate="61.4" startX="-100.0" />
+   <Line endX="10.0" layoutX="348.0" layoutY="468.0" rotate="59.7" startX="-100.0" />
+   <Line endX="40.0" layoutX="447.0" layoutY="469.0" rotate="-49.4" startX="-100.0" />
+   <Line endX="55.0" layoutX="578.0" layoutY="391.0" startX="-100.0" />
+   <Line endX="35.0" layoutX="741.0" layoutY="307.0" rotate="-53.1" startX="-100.0" />
+   <Line endX="20.0" layoutX="838.0" layoutY="306.0" rotate="62.4" startX="-100.0" />
+   <Line endX="228.0" layoutX="495.0" layoutY="224.0" startX="-100.0" />
+   <Line endX="250.0" layoutX="471.0" layoutY="545.0" startX="-100.0" />
+   <Line endX="35.0" layoutX="815.0" layoutY="468.0" rotate="114.4" startX="-100.0" />
+   <Line endX="-15.0" layoutX="225.0" layoutY="339.0" rotate="90.0" startX="-100.0" />
+   <Line endX="-30.0" layoutX="937.0" layoutY="382.0" startX="-100.0" />
+   <Line endX="-30.0" layoutX="988.0" layoutY="332.0" rotate="90.0" startX="-100.0" />
+   <Line endX="30.0" layoutX="734.0" layoutY="467.0" rotate="61.9" startX="-100.0" />
+   <TextArea fx:id="textbottom" layoutX="123.0" layoutY="580.0" prefHeight="71.0" prefWidth="376.0" />
+   <ScrollPane fx:id="pane" layoutX="114.0" layoutY="668.0" prefHeight="167.0" prefWidth="351.0" />
+   <ScrollPane fx:id="pane1" layoutX="720.0" layoutY="662.0" prefHeight="167.0" prefWidth="376.0" />
+   <Label layoutX="286.0" layoutY="288.0" />
+   <Label layoutX="269.0" layoutY="469.0" />
+   <Label layoutX="417.0" layoutY="478.0" />
+   <Label layoutX="539.0" layoutY="522.0" />
+   <Label layoutX="425.0" layoutY="280.0" />
+   <Label layoutX="539.0" layoutY="198.0" />
+   <Label layoutX="539.0" layoutY="365.0" />
+   <Label layoutX="682.0" layoutY="280.0" />
+   <Label layoutX="651.0" layoutY="452.0" />
+   <Label layoutX="798.0" layoutY="280.0" />
+   <Label layoutX="794.0" layoutY="461.0" />
+
+</Pane>
